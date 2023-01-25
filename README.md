@@ -1,2 +1,2 @@
 # 2linkedList
-c++, two linked list with many functions realized
+c++, doubly linked list with many functions realized

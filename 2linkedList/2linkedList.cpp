@@ -61,11 +61,11 @@ int main()
 		->info) 
 		<< std::endl;
 
-	tll::sort<foo>(root2, [](foo a, foo b) {return a.c > b.c; }); // sorting by .c variable
+	tll::sort<foo>(root2, [](foo a, foo b) { return a.c > b.c; }); // sorting by .c variable
 
 	tll::show<foo>(root2, foo_to_str);
 
-	tll::sort<foo>(root2, [](foo a, foo b) {return a.b > b.b; }, true); // sorting by .b variable in reverse order
+	tll::sort<foo>(root2, [](foo a, foo b) { return a.b > b.b; }, true); // sorting by .b variable in reverse order
 
 	tll::show<foo>(root2, foo_to_str);
 
